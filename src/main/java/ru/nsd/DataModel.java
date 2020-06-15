@@ -1,4 +1,4 @@
-package ru.ncd;
+package ru.nsd;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;

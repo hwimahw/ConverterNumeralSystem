@@ -1,4 +1,4 @@
-package ru.ncd;
+package ru.nsd;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

@@ -1,8 +1,8 @@
 <%@ page import="javax.servlet.RequestDispatcher" %>
 <%@ page import="javax.servlet.ServletContext" %>
-<%@ page import="ru.ncd.Converter" %>
-<%@ page import="ru.ncd.OverFlowException" %>
-<%@ page import="ru.ncd.InputException" %>
+<%@ page import="ru.nsd.Converter" %>
+<%@ page import="ru.nsd.OverFlowException" %>
+<%@ page import="ru.nsd.InputException" %>
 
 <%
     try{

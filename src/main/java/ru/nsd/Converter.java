@@ -1,4 +1,4 @@
-package ru.ncd;
+package ru.nsd;
 
 public class Converter {
     public static void main(String[] args) throws OverFlowException, InputException {

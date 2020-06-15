@@ -1,4 +1,4 @@
-package ru.ncd;
+package ru.nsd;
 
 public class OverFlowException extends Exception{
 
