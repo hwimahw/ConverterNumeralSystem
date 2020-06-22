@@ -13,7 +13,7 @@ public class DataModel {
 
     private String result;
 
-    DataModel(String number, int a, int b, String result) {
+    public DataModel(String number, int a, int b, String result) {
         this.number = number;
         this.a = a;
         this.b = b;

@@ -1,5 +1,8 @@
 package ru.nsd;
 
+import ru.nsd.exceptions.InputException;
+import ru.nsd.exceptions.OverFlowException;
+
 public class Converter {
     public static void main(String[] args) throws OverFlowException, InputException {
         String result = countResult("123", 10, 10);
@@ -14,7 +17,7 @@ public class Converter {
         return result;
     }
 
-    public static void checkForCorrectness (String number, int a) throws InputException{
+    private static void checkForCorrectness (String number, int a) throws InputException{
         char[] n = number.toCharArray();
         if(a <= 10) {
             for (int i = 0; i < n.length; i++) {
@@ -31,7 +34,7 @@ public class Converter {
         }
     }
 
-    public static String noZeros(String number){
+    private static String noZeros(String number){
         int i = 0;
         while(number.charAt(i) == '0'){
             i++;
@@ -42,7 +45,7 @@ public class Converter {
         return number.substring(i, number.length());
     }
 
-    public static long convertFromAToDecimal(String number, int a, int b) throws OverFlowException{
+    private static long convertFromAToDecimal(String number, int a, int b) throws OverFlowException{
 
         long result = 0;
         if(a <= 10) {
@@ -73,7 +76,7 @@ public class Converter {
         return result;
     }
 
-    public static String convertToBNumeralSystem(long numberInDecimal, int b){
+    private static String convertToBNumeralSystem(long numberInDecimal, int b){
         StringBuffer sb = new StringBuffer();
         long n = numberInDecimal;
         long q = b;

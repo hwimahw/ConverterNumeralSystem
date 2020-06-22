@@ -1,8 +1,8 @@
-package ru.nsd;
+package ru.nsd.exceptions;
 
 public class OverFlowException extends Exception{
 
-    OverFlowException(String message){
+    public OverFlowException(String message){
         super(message);
     }
 }

@@ -1,8 +1,8 @@
-package ru.nsd;
+package ru.nsd.exceptions;
 
 public class InputException extends Exception {
 
-    InputException(String message){
+    public InputException(String message){
         super(message);
     }
 }
